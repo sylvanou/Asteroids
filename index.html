@@ -2,17 +2,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="spaceStyle.css">
-    <link rel="shortcut icon" type="image/png" href="asteroid.png"/>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="http://sumbac.fvi-grad.com/Asteroids/asteroid.png"/>
     <title>AVOID THE ASTEROIDS!</title>
   </head>
-  <body onload="gameLoop()" onkeydown="keyDown(event)" onkeyup="keyUp(event)">
+  <body>
 
     <p id="healthCounter">SHIELDS: 1000</p>
 
     <div id="asteroidGenerator"></div>
 
-    <img src="spaceShip.png" id="ship" />
+    <img src="http://sumbac.fvi-grad.com/Asteroids/spaceShip.png" id="ship" />
 
-    <script src="codingIsFun.js"></script>
+    <script src="./dist/prod.js"></script>
   </body>
 </html>

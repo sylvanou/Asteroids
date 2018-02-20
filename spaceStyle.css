@@ -1,5 +1,6 @@
 body {
-  background-image: url("space.jpg");
+  background-image: url("http://sumbac.fvi-grad.com/Asteroids/space.jpg");
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -24,12 +25,13 @@ body {
 }
 
 #healthCounter {
+  font-family: 'VT323', monospace;
   position: absolute;
   top: 0;
   left: 20;
   color: white;
   font-weight: bolder;
-  font-size: 100;
-  opacity: 0.2;
+  font-size: 80;
+  opacity: 0.5;
   line-height: 0;
 }
